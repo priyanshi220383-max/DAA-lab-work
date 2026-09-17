@@ -7,7 +7,8 @@ def generate_execution_observation_table(sizes):
     table = []
 
     table.append("Algorithm Execution Observation Table")
-    table.append("InputSize RecursiveFactorial IterativeFactorial RecursiveFibonacci IterativeFibonacci LinearSearch BinarySearch BubbleSort InsertionSort")
+    table.append("InputSize RecursiveFactorial IterativeFactorial RecursiveFibonacci" 
+    " IterativeFibonacci LinearSearch BinarySearch BubbleSort InsertionSort")
 
     for n in sizes:
         table.append(
